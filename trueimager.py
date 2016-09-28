@@ -50,7 +50,7 @@ def scontentLinkGenerator((driverman,html_file)):
             scontentLinkList.append(values.get('src'))
     return scontentLinkList
 def seleniumWebPage(username,password,userid):
-    driver = webdriver.Chrome()
+    driver = webdriver.Firefox()
     driver.get("https://facebook.com")
     email = driver.find_element_by_id("email")
     email.send_keys(username)
