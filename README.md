@@ -3,7 +3,7 @@ Downloads Image from friend's album in facebook
 
 Uses python2 so make sure you have python2 installed
 
-Instructions:
+# Instructions:
 Confirm that you have necessary packages by running
 
 pip -r requirements.txt
