@@ -8,12 +8,12 @@ from selenium.webdriver.common.keys import Keys
 import time
 #Parse user input value
 #uip = ''.join(sys.argv[1:])
-uip=raw_input("Enter the number of photos you wish to download")
+uip=raw_input("Enter the number of photos you wish to download: ")
 
 uip = int(uip)
 
-email_addr = raw_input("Enter your facebook email ")
-password = raw_input("Enter your password")
+email_addr = raw_input("Enter your facebook email: ")
+password = raw_input("Enter your password: ")
 friend_id = raw_input("Profile id of your friend: ")
 directoryname = raw_input("Directory name: ")
 if (not(os.path.exists("/home/"+directoryname))):
